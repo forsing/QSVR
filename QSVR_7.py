@@ -1,49 +1,4 @@
 # https://qiskit-community.github.io/qiskit-machine-learning/tutorials/01_neural_networks.html
-
-# https://github.com/qiskit-community/qiskit-machine-learning?tab=readme-ov-file
-
-# https://github.com/Qiskit/textbook/tree/main/notebooks/quantum-machine-learning#
-
-
-
-""" 
-https://qiskit-community.github.io/qiskit-machine-learning/tutorials/
-
-https://github.com/qiskit-community
-
-
-https://github.com/qiskit-community/qiskit-machine-learning/blob/stable/0.8/docs/tutorials/01_neural_networks.ipynb
-
-https://github.com/qiskit-community/qiskit-machine-learning/blob/stable/0.8/docs/tutorials/02_neural_network_classifier_and_regressor.ipynb
-
-https://github.com/qiskit-community/qiskit-machine-learning/blob/stable/0.8/docs/tutorials/02a_training_a_quantum_model_on_a_real_dataset.ipynb
-
-
-
-"""
-
-
-
-
-
-### https://qiskit-community.github.io/qiskit-machine-learning/tutorials/03_quantum_kernel.html
-
-
-### https://github.com/qiskit-community/qiskit-machine-learning/blob/stable/0.8/docs/tutorials/03_quantum_kernel.ipynb
-
-
-
-
-"""
-https://qiskit-community.github.io/qiskit-machine-learning/tutorials/03_quantum_kernel.html
-
-https://github.com/qiskit-community/qiskit-machine-learning/blob/main/docs/tutorials/03_quantum_kernel.ipynb
-
-"""
-
-
-
-
 import warnings
 warnings.filterwarnings("ignore", message="No gradient function provided")
 
@@ -102,7 +57,7 @@ algorithm_globals.random_seed = SEED
 # =========================
 # Učitavanje CSV fajla
 # =========================
-csv_path = '/Users/milan/Desktop/GHQ/data/loto7_4510_k89.csv'
+csv_path = '/data/loto7_4510_k89.csv'
 df = pd.read_csv(csv_path, header=None)  # bez headera
 
 # =========================
@@ -199,17 +154,17 @@ Predikcija za broj 2: 9
 --- Treniranje QSVR modela za broj 3 ---
 Računanje kernel matrice: 100%|██████████████| 100/100 [00:18<00:00,  5.40it/s]
 Broj 3:   1%|▎                                 | 1/100 [00:06<11:22,  6.90s/it]
-Predikcija za broj 3: 13
+Predikcija za broj 3: x
 
 --- Treniranje QSVR modela za broj 4 ---
 Računanje kernel matrice: 100%|██████████████| 100/100 [00:18<00:00,  5.35it/s]
 Broj 4:   1%|▎                                 | 1/100 [00:06<11:20,  6.87s/it]
-Predikcija za broj 4: 20
+Predikcija za broj 4: x
 
 --- Treniranje QSVR modela za broj 5 ---
 Računanje kernel matrice: 100%|██████████████| 100/100 [00:18<00:00,  5.33it/s]
 Broj 5:   1%|▎                                 | 1/100 [00:06<11:24,  6.91s/it]
-Predikcija za broj 5: 27
+Predikcija za broj 5: x
 
 --- Treniranje QSVR modela za broj 6 ---
 Računanje kernel matrice: 100%|██████████████| 100/100 [00:18<00:00,  5.29it/s]
@@ -234,39 +189,5 @@ print()
 N = 100
 
 === Predviđena sledeća loto kombinacija (7/39) ===
-4 9 13 20 27 35 37
-"""
-
-
-
-
-
-
-
-"""
-cisti kesh
-
-pip cache purge
-
-"""
-
-
-"""
-Obriši cache
-Na Mac/Linux:
-rm -rf ~/.cache/pip
-"""
-
-
-"""
-=== Qiskit Version Table ===
-Software                       Version        
----------------------------------------------
-qiskit                         1.4.4          
-qiskit_machine_learning        0.8.3          
-
-=== System Information ===
-Python version                 3.11.13        
-OS                             Darwin         
-Time                           Tue Sep 09 18:11:49 2025 CEST
+4 9 x x x 35 37
 """
