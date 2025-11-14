@@ -1,10 +1,9 @@
 import warnings
 warnings.filterwarnings("ignore", message="No gradient function provided")
 
-
-"""
-QKR
-"""
+""""
+QSVR
+""""
 
 """
 | Paket                       | Verzija |
@@ -57,7 +56,7 @@ algorithm_globals.random_seed = SEED
 # =========================
 # Učitaj CSV
 # =========================
-df = pd.read_csv("/Users/milan/Desktop/GHQ/data/loto7_4510_k89.csv", header=None)
+df = pd.read_csv("/data/loto7_4510_k89.csv", header=None)
 min_val = [1,2,3,4,5,6,7]
 max_val = [33,34,35,36,37,38,39]
 
@@ -151,5 +150,5 @@ plot_histogram(counts)
 print()
 """
 === QSVR Predviđena loto kombinacija (7) ===
-22 25 27 12 16 34 30
+22 25 x x x 34 30
 """
