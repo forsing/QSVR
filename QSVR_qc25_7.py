@@ -1,9 +1,9 @@
 import warnings
 warnings.filterwarnings("ignore", message="No gradient function provided")
 
-""""
+"""
 QSVR
-""""
+"""
 
 """
 | Paket                       | Verzija |
