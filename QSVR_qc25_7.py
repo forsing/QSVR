@@ -2,7 +2,7 @@ import warnings
 warnings.filterwarnings("ignore", message="No gradient function provided")
 
 """
-QSVR
+QSVR (Quantum Support Vector Regressor)
 """
 
 """
