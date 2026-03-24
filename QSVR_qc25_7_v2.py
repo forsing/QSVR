@@ -247,6 +247,6 @@ python3 QSVR_qc25_7_v2.py
 
 
 === QSVR Predviđena loto kombinacija (7) ===
-20 19 17 21 15 32 33
+20 x y z 15 32 33
 """
 
